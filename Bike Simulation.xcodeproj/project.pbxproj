@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		FF4C24D42700B026003494CC /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = FF4C24D32700B026003494CC /* main.c */; };
+		FFAF22352704767A0002043B /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFAF2233270476770002043B /* GLUT.framework */; };
+		FFAF2239270477B00002043B /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFAF222E270476650002043B /* OpenGL.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,10 @@
 /* Begin PBXFileReference section */
 		FF4C24D02700B026003494CC /* Bike Simulation */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Bike Simulation"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF4C24D32700B026003494CC /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		FF5453662702CA6B008227DC /* bike.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bike.h; sourceTree = "<group>"; };
+		FFAF222E270476650002043B /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		FFAF2233270476770002043B /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
+		FFAF22372704777A0002043B /* Metal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Metal.framework; path = System/Library/Frameworks/Metal.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +38,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FFAF22352704767A0002043B /* GLUT.framework in Frameworks */,
+				FFAF2239270477B00002043B /* OpenGL.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -43,6 +51,7 @@
 			children = (
 				FF4C24D22700B026003494CC /* Bike Simulation */,
 				FF4C24D12700B026003494CC /* Products */,
+				FFAF222D270476650002043B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,8 +67,19 @@
 			isa = PBXGroup;
 			children = (
 				FF4C24D32700B026003494CC /* main.c */,
+				FF5453662702CA6B008227DC /* bike.h */,
 			);
 			path = "Bike Simulation";
+			sourceTree = "<group>";
+		};
+		FFAF222D270476650002043B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FFAF22372704777A0002043B /* Metal.framework */,
+				FFAF2233270476770002043B /* GLUT.framework */,
+				FFAF222E270476650002043B /* OpenGL.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
