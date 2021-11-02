@@ -25,6 +25,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		FF2065382731340A007D9366 /* Readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Readme.md; sourceTree = "<group>"; };
+		FF20653A27313689007D9366 /* BikeSimulation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BikeSimulation.png; sourceTree = "<group>"; };
 		FF4C24D02700B026003494CC /* Bike Simulation */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Bike Simulation"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF4C24D32700B026003494CC /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		FF5453662702CA6B008227DC /* bike.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bike.h; sourceTree = "<group>"; };
@@ -49,6 +51,8 @@
 		FF4C24C72700B026003494CC = {
 			isa = PBXGroup;
 			children = (
+				FF2065382731340A007D9366 /* Readme.md */,
+				FF20653A27313689007D9366 /* BikeSimulation.png */,
 				FF4C24D22700B026003494CC /* Bike Simulation */,
 				FF4C24D12700B026003494CC /* Products */,
 				FFAF222D270476650002043B /* Frameworks */,
