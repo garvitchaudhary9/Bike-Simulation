@@ -7,6 +7,7 @@
 
 #ifndef bike_h
 #define bike_h
+#define GL_SILENCE_DEPRECATION
 #include<openGL/gl.h>
 #include<GLUT/glut.h>
 #include<stdio.h>
