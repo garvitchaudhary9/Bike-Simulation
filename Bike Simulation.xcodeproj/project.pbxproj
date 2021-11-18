@@ -33,7 +33,6 @@
 		FF5453662702CA6B008227DC /* bike.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bike.h; sourceTree = "<group>"; };
 		FFAF222E270476650002043B /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
 		FFAF2233270476770002043B /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
-		FFAF22372704777A0002043B /* Metal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Metal.framework; path = System/Library/Frameworks/Metal.framework; sourceTree = SDKROOT; };
 		FFBDE8E92744458600FFA2F0 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -83,7 +82,6 @@
 			isa = PBXGroup;
 			children = (
 				FFBDE8E92744458600FFA2F0 /* GLKit.framework */,
-				FFAF22372704777A0002043B /* Metal.framework */,
 				FFAF2233270476770002043B /* GLUT.framework */,
 				FFAF222E270476650002043B /* OpenGL.framework */,
 			);

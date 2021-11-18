@@ -54,8 +54,8 @@ GLenum Mouse;
 //bike position related variables
 GLfloat xpos,zpos,direction;
 //function prototypes
-void welcome_window();
-void operations_window();
+void welcome_window(void);
+void operations_window(void);
 void ZCylinder(GLfloat radius,GLfloat length);
 void XCylinder(GLfloat radius,GLfloat length);
 void drawFrame(void);
