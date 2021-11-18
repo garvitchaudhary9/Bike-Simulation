@@ -63,9 +63,11 @@ void gear( GLfloat inner_radius, GLfloat outer_radius,GLfloat width,GLint teeth,
 void drawChain(void);
 void drawPedals(void);
 void drawTyre(void);
-void drawSeat(void); void init(void);
+void drawSeat(void);
+void init(void);
 void reset(void);
-void display_bike(void); void idle(void);
+void display_bike(void);
+void idle(void);
 void updateScene(void);
 void landmarks(void);
 void special(int key,int x,int y);

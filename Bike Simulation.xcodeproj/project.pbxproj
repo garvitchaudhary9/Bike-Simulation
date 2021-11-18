@@ -3,10 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FF11FFA5274639DB00FAFD54 /* MetalKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF11FFA4274639DB00FAFD54 /* MetalKit.framework */; platformFilter = maccatalyst; };
+		FF230BB727463A2200E4D12D /* Metal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF230BB627463A2200E4D12D /* Metal.framework */; platformFilter = maccatalyst; };
 		FF4C24D42700B026003494CC /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = FF4C24D32700B026003494CC /* main.c */; };
 		FFAF22352704767A0002043B /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFAF2233270476770002043B /* GLUT.framework */; };
 		FFAF2239270477B00002043B /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFAF222E270476650002043B /* OpenGL.framework */; };
@@ -26,8 +28,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		FF11FFA4274639DB00FAFD54 /* MetalKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MetalKit.framework; path = System/Library/Frameworks/MetalKit.framework; sourceTree = SDKROOT; };
 		FF2065382731340A007D9366 /* Readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Readme.md; sourceTree = "<group>"; };
 		FF20653A27313689007D9366 /* BikeSimulation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BikeSimulation.png; sourceTree = "<group>"; };
+		FF230BB627463A2200E4D12D /* Metal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Metal.framework; path = System/Library/Frameworks/Metal.framework; sourceTree = SDKROOT; };
 		FF4C24D02700B026003494CC /* Bike Simulation */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Bike Simulation"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF4C24D32700B026003494CC /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		FF5453662702CA6B008227DC /* bike.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bike.h; sourceTree = "<group>"; };
@@ -42,6 +46,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				FFAF22352704767A0002043B /* GLUT.framework in Frameworks */,
+				FF11FFA5274639DB00FAFD54 /* MetalKit.framework in Frameworks */,
+				FF230BB727463A2200E4D12D /* Metal.framework in Frameworks */,
 				FFBDE8EA2744458600FFA2F0 /* GLKit.framework in Frameworks */,
 				FFAF2239270477B00002043B /* OpenGL.framework in Frameworks */,
 			);
@@ -81,6 +87,8 @@
 		FFAF222D270476650002043B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				FF230BB627463A2200E4D12D /* Metal.framework */,
+				FF11FFA4274639DB00FAFD54 /* MetalKit.framework */,
 				FFBDE8E92744458600FFA2F0 /* GLKit.framework */,
 				FFAF2233270476770002043B /* GLUT.framework */,
 				FFAF222E270476650002043B /* OpenGL.framework */,
@@ -114,7 +122,7 @@
 		FF4C24C82700B026003494CC /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 1250;
+				LastUpgradeCheck = 1310;
 				TargetAttributes = {
 					FF4C24CF2700B026003494CC = {
 						CreatedOnToolsVersion = 12.5.1;
@@ -265,6 +273,7 @@
 		FF4C24D82700B026003494CC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YQ4DVM2A8K;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -275,6 +284,7 @@
 		FF4C24D92700B026003494CC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YQ4DVM2A8K;
 				ENABLE_HARDENED_RUNTIME = YES;
